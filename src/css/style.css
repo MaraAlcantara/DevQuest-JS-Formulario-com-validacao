@@ -1,0 +1,100 @@
+.container {
+    background: url("../images/bg-repeat.jpg");
+    height: 100vh;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.texto {
+    width: 60vw;
+}
+
+.texto .titulo {
+    color:#FFF;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 5rem;
+}
+
+.texto .texto-explicativo {
+    color: #FFF;
+    font-size: 1.5rem;
+    margin-top: 1.1rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+}
+
+.formulario {
+    height: 95vh;
+    width: 50vw;
+    background-color: #FFF;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 0%);
+    height: 3.5rem;
+    font-weight: 700;
+    font-size: 1.5rem;   
+}
+
+.campo-obrigatorio {
+    color:#ff0000;
+    align-self: self-start;
+    margin-left: 2rem;
+    opacity: 0;
+}
+
+.nao-preenchido {
+    opacity: 1;
+}
+
+.formulario #mensagem {
+    height: 30%;
+}
+
+.formulario p {
+    margin-top: 0.7rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    align-self: self-start;
+}
+
+.formulario .enviar {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    background-color: #3CCC87;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.formulario .enviar:hover {
+    cursor: pointer;
+    padding: 1.2rem;
+    transition: 0.3s ease-in-out;
+    font-size: 1.6rem;
+}
+
+.campo-preenchido {
+    border: 2px solid #00C22B;
+}
+
+.campo-nao-preenchido {
+    border: 2px solid #ff0000;
+}
